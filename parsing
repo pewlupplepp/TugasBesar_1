@@ -1,0 +1,21 @@
+Parsing merupakan Materi dari Kuliah Teknik Kompilasi, di dalam mata kuliah teknik Kompilah ada beberapa bab yang harus anda pelajari yaitu
+1. PENGANALISA LEKSIKAL (SCANNER)
+2. PENGANALISA SINTAKS (PARSER)
+3. PENGANALISA SEMANTIK
+4. MEMBENTUK INTERMEDIATE CODE
+nah, dari beberapa Bab diatas Materi Parsing ada pada Bab Penganalisa sintaks atau Parser. ok lest read…!!!
+yang pertama kita pelajari adalah tentang Pengertian Parsing.
+
+1. Pengertian Parsing
+Parsing adalah suatu cara memecah-mecah suatu rangkaian masukan (misalnya dari berkas atau keyboard) yang akan menghasilkan
+suatu pohon uraian (parse tree) yang akan digunakan pada tahap kompilasi berikutnya yaitu analisis semantik.
+
+2. Metode Parsing.
+ada beberapa metode Paring antara Lain
+Waktu eksekusi
+Penanganan Masalah
+Penanganan Code
+
+3. golongan Parsing
+Top-dwon
+Bottom-dwon
