@@ -1,0 +1,71 @@
+kelompok kelas E 2011 layanan web yaitu melaticintiya permata, neneng maida, purwanti, atika suri, nirmanirmalasari.
+  Pengertian HTML
+HTML merupakan singkatan dari Hyper Text Markup Language merupakan bahasa asli dari www, sejak pertama kali www ditemukan html telah menjadi bahasa standar untuk menampilkan data di internet. Perkembangan html sangatlah pesat, saat ini versi terakhir dari html telah mencapai html 5. Tentunya perkembangan html yang pesat ini di iringi dengan perbaikan dari versi-versi sebelumnya, sehingga versi terakhir html 5 ini lebih baik dari versi di bawahnya.
+
+Secara garis besar terdapat 4 jenis elemen dari HTML yaitu :
+1)        Structural
+Adalah suatu tanda atau kode program yang menentukan level atau tingkatan dari sebuah tulisan.
+Contoh : <h1>Internet</h1> akan memerintahkan browser untuk menampilkan "Internet" sebagai tulisan tebal besar yang menunjukkan sebagai Heading 1.
+2)        Presentational
+Adalah suatu tanda atau kode yang menentukan tampilan dari sebuah tulisan, tidak peduli dengan level dari tulisan tersebut.
+contoh : <b>Cetak Tebal</b> maka pada browser akan menampilkan "Cetak Tebal". Namun kode-kode presentational saat ini sudah mulai digantikan dengan penggunaan CSS (Cascading Style Sheets) dan tidak direkomendasikan lagi untuk mengatur tampilan tulisan.
+3)        HyperText
+Suatu tanda atau kode program HTML yang menunjukkan hubungan (link) ke bagian lain dari dokumen tersebut atau link ke dokumen lain.
+contoh : 
+ <a href="http://dedebrahma.blogspot.com/">Artikel</a>
+maka pada browser akan menampilkan "Artikel" sebagai sebuah hyperlink yang menuju ke URL http://dedebrahma.blogspot.com/
+4)        Elemen
+Widget yang membuat objek-objek lain seperti tombol <button>, list <li>, dan garis horizontal <hr>, Konsep hypertext pada HTML memungkinkan kita untuk membuat link pada suatu kelompok kata atau frase untuk menuju ke bagian manapun dalam World Wide Web (WWW).
+Contoh dokumen HTML sederhana adalah seperti di bawah ini :
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>'''Hello World''</title>
+  </head>
+  <body>
+    <p>Welcome to my site!</p>
+  </body>
+</html>
+Elemen html :
+·      HEAD
+Bagian header dari document HTML di apit oleh tag <HEAD></HEAD> di dalam bagian ini biasanya dimuat tag TITLE yang menampilkan judul dari halaman pada titlenya browser. Selain itu Bookmark juga megunakan tag TITLE untuk memberi mark suatu web site. Browser menyimpan “title” sebagai bookmark dan juga untuk keperluan pencarian (searching) biasanya title di gunakan sebagai keyword. Header juga memuat tag META yang biasanya di gunakan untuk menentukan informasi tertentu mengenai document HTML, anda bisa menentukan author name, keywords, dan lainnya pada tag META.
+Contoh :
+<meta name="author" content="kriwil">
+·      BODY
+Bagian BODY, yang dinyatakan dengan tag <BODY>isi content</BODY>, merupakan tubuh atau isi dari dokumen HTML dimana anda meletakan informasi yang akan ditampilkan pada browser.
+·      TAG
+HTML tidak membedakan penggunaan huruf besar ataupun huruf kecil dari suatu elemen. Suatu elemen HTML terdiri dari tag-tag beserta teks yang ada dalam tag-tag tersebut. Tag ini dinyatakan dengan tanda lebih kecil (<) dan tanda lebih besar (>). 
+
+2.        Pengertian XHTML
+XHTML adalah singkatan dari Extensible Hyper Text Markup Language yang merupakan gabungan dari html (Hyper Text Markup Language) dan xml (Extensible Markup Language). Xhtml merupakan versi diatas html, penulisan kode menggunakan bahasa xhtml haruslah disusun secara rapi dan tertib. Semua elemen pembuka pada xhtml harusah ditutup, ini berbeda dengan html. Keunggulan menggunakan xhtml adalah dapat digunakan pada perangkat selain komputer, musalnya HP dan lainnya. Itu sebabnya Mywapblog penggunaan xhtml karena memang di khususkan untuk pengguna HP atau ponsel. XHTML adalah sebuah aplikasi dari XML (Extensible Mark-up Languange). XHTML direkomendasikan oleh W2C pada january 2000.
+
+Perbedaan HTML dan XHTML :
+·           Semua elemen dan attribute pada dokumen XHTML harus diketik dalam huruf kecil (ini tidak perlu pada HTML).
+·           Semua tag pembuka harus ditutup dengan tag penutup, di HTML banyak tag- tag pembuka dibiarkan terbuka tanpa menutupnya namun tidak terjadi error bila dibuka pada browser, salah satu contohnya adalah line break dan image tag.
+·           Dalam dunia XHTML, segala tag harus bersarang secara teratur (properly nested), artinya bahwa jika anda membuka tag “a” setelah itu membuka tag baru di dalamnya, maka tag yang paling baru harus ditutup duluan dan tag yang terbuka pertama harus ditutup paling akhir. Walaupun nesting ini juga terdapat dalam dunia HTML namun tidak seketat peraturan di XHTML.
+·           Tiap value pada attribute harus terbungkus dengan tanda kutip ganda atau tunggal dan atributnya sendiri tidak boleh disingkat.
+·           Image tag harus terdapat alt attribute yang menyediakan deskripsi image, untuk memungkinkan mereka memiliki beberapa persyaratan untuk aksesibilitas bersama dengan standar web yang berbeda.
+·           Persyaratan lain dari XHTML adalah adanya pernyataan dari DOCTYPE yang menentukan aturan mana yang diikuti oleh dokumen anda (aturan yang diwarisi dari XML). Anda akan menemukan pernyataan ini pada barisan pertama dari atas ketika anda mengaktifkan halaman source kode XHTML yaitu tipe dokumen deklarasi (juga disebut dengan DTD atau DOCTYPE). Sebagian besar halaman web yang diciptakan hari ini akan menyertakan deklarasi DOCTYPE tersebut. Ada 3 DTD untuk XHTML: Strict (hanya akan validasi jika tanpa tag usang), Transisi (masih akan memvalidasi dengan tag usang), dan Frameset (untuk halaman yang "set up frame"). Semua dokumen XHTML harus sesuai dengan aturan sintaks XML.
+
+Deklarasi Doctype pada XHTML hampir sama dengan Doctype pada HTML. W3C mengharuskan agar selalu menggunakan Doctype pada XHTML. Terdapat 3 Jenis Doctype pada XHTML :
+a.    XHTML - Strict. Digunakan untuk membuat halaman yang layout dan formatnya dikontrol penuh oleh CSS. Pada deklarasi ini menggunakan tagfont dan table.
+<!DOCTYPE html PUBLIC "-//W3c//DTD XHTML 1.0 Strict//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+b.    XHTML - Transitional. Digunakan untuk membuat halaman yang sebagian besar menggunakan tag-tag HTML.
+<!DOCTYPE html PUBLIC "-//W3c//DTD XHTML 1.0 Transitional//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-traditional.dtd">
+c.    XHTML - Frame. Digunakan jika kita memakai frame pada halaman web.
+<!DOCTYPE html PUBLIC "-//W3c//DTD XHTML 1.0 Frameset//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+3.        Pengertian XML
+XML (eXtensible Markup Language) merupakan bahasa web turunan dari SGML (Standart Generalized Markup Language) yang ada sebelumnya. XML hampir sama dengan HTML, dimana keduanya sama-sama turunan dari SGML. Teknologi XML dikembangkan mulai tahun 1966 dan mendapatkan pengakuan dari Worl Wide Web Consortium (W3C) pada bulan Februari 1998. Sedangkan SGML sendiri telah dikembangkan pada awal tahun 1980-an. Pada saat HTML dikembangkan pada tahun 1990, para penggagas XML mengadopsi bagian paling penting SGML dan dengan berpedoman pada pengembangan HTML menghasilkan bahasa markup yang tidak kalah hebatnya dengan SGML.
+Secara sederhana XML adalah suatu bahasa yang digunakan untuk mendeskripsikan dan memanipulasi dokumen secara terstruktur. Secara teknis XML didefinisikan sebagai suatu bahasa meta-markup yang menyediakan format tertentu untuk dokumen-dokumen yang mempunyai data terstruktur. Bahasa markup adalah mekanisme untuk mengenal secara terstruktur di dokumen. XML adalah suatu aplikasi profil dari SGML. Seperti yang didefinisikan dari ISO 8879, SGML adalah cara standart dan vendor-independent. 
+XML tidak mempunyai definisi secara tepat karena ada yang berpendapat bahwa XML bukanlah suatu bahasa pemrograman,melainkan XML merupakan sintaks yang digunakan untuk menjelaskan bahasa markup lain (Dournaee,2002), sehingga dinamakan meta-language. Meskipun demikian pendapat yang XML bukan merupakan bahasa markup, didasarkan bahwa XML merupakan bahasa markup terpisah untuk tujuan terpisah. Selain itu XML bukanlah solusi semua hal untuk tujuan semua user. Sedangkan peran dari markup itu sendiri berupa:
+1)   Markup dapat menambah maksud arti (semantic) suatu data.
+2)   Dapat memisahkan data.
+3)   Dapat mendefinisikan peran data.
+4)   Dapat mendefinisikan batasan data.
+5)   Dapat menfenisikan keterhubungan data.
+XML merupakan sebuah himpunan bagian (subset) dari SGML yang bertujuan agar SGML secara generik dapat melayani, menerima, dan memproses di dalam web dengan cara seperti yang dimungkinkan HTML saat ini. XML didesain untuk kemudahan implementasi dan interoperabilitas dengan SGML maupun HTML. XML adalah bahasa markup yang dirancang untuk penyampaian informasi melalui World Wide Web (www) atau sering disebut web saja. (W3C,2000)
+XML merubah cara kita berpikir untuk mengembangkan suatu software terutama aplikasi web. Masalah yang kita sekarang adalah bagaimana caranya untuk bertukar informasi antar satu aplikasi dengan aplikasi lain. Kadang kolaborasi antara satu aplikasi dengan aplikasi yang lain masih harus ditentukan dengan spesifikasi aplikasi tersebut.
+Padahal seharusnya kita hanya perlu mendapatkan informasi data bukan mengerti cara kerja aplikasi lain itu, disinilah visi internet yang belum tercapai. Visi ini adalah dunia internet dimana PC, server, smart devices dan internet-based device dapat berkolaborasi tanpa ada halangan. Bisnis-bisnis akan dapat bertukar data menyediakan customized dan comprehensive solusi kepada customer. Dan yang paling utama adalah informasi yang dibutuhkan dapat diakses dari mana saja dan dengan computing device, platform, atau aplikasi yang kita gunakan.
+XML dapat memungkinkan pertukaran informasi atau data antar device (server, PCs, smart device, aplikasi, dan situs web). Data ini akan menjadi independent (unlocked), memudahkannya untuk diorganisir, diprogram, dan dirubah, dan ditukar antar situs web atau aplikasi apa saja. Karena kebutuhan ini, maka makin banyak teknologi berbasis XML yang keluar. Contohnya adala SOAP (Simple Project Acces Protocol) dan UDDI (Universal Description Discovery and Integration).
+SOAP memungkinkan aplikasi-aplikasi untuk berkomunikasi melalui standart internet protocol. Sedangkan UDDI memberikan bisnis-bisnis suatu cara standart untuk menjelaskan servis mereka dan cara koneksi secara otomatis. Dari sini munculah web service, yaitu suatu tipe baru software yang dapat dipakai berulang-ulang (seperti komponen software) dengan pengecualian service ini dapat diakses darimana saja melalui internet.
