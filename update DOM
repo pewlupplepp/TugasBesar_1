@@ -1,0 +1,36 @@
+
+    Document Object Model (DOM)
+
+Pada Html dan Xml yang merupakan platform yang berdiri sendiri ini adalah objek model standar. DOM tidak dibutuhkan oleh sebuah browser yang hanya digunakan untuk menampilkan dukumen Html. Namun, lain halnya pada Javascript dimana DOM sangat diperlukan. Ini berguna untuk javascript yang akan mengubah tampilan sebuah website secara dinamis.
+
+ DOM memungkinkan skrip secara dinamis dapat mengakses dan memperbaharui konten dari suatu dokumen Html. DOM sendiri baru dikembangkan pada awal tahun 1990-an oleh W3C. Dan DOM pertama diluncurkan pada oktober 1998. 
+
+    Standar DOM
+
+Standar dari DOM ini sendiri dibedakan menjadi beberapa bagian:
+
+    DOM Level 1, direkomendasikan pada akhir tahun 1998 oleh W3C mendukung model yang lengkapa pada HTML dan XML, dan juga terdapat fungsi untuk mengubah bagian seluruh dokumen.
+    DOM Level 2, diterbitkan pada akhir tahun 2000, model ini memperkenalkan fungsi "getElementId" dan juga sudah mendukung XML namespaces dan juga CSS.
+    DOM Level 3, diterbitkan pada April 2004, yang sudah mendukung Xpath dan Keyboard event handling, dan juga lanjutan dari tampilan dokumen XML.
+    DOM Level 4, saat ini sedang dikembangkan. 
+
+
+
+    Hubungan DOM dan Javascript
+
+Tadi sudah sedikit dibahas diatas, bahwa DOM itu diperlukan oleh Javascript. Nah, disini kita harus mengetahui dahulu bahwa sebenarnya pada Html, tag - tag / elemen - elemennya adalah bagian dari Document Object Model tersebut. Javascript berperan untuk memanipulasi DOM. Dengan demikian, dengan penggunaan yang tepat dan penuh kreatifitas kita dapat menghasilkan suatu yang sangat menarik dan dinamis pada website kita.
+
+    Cara mengakses objek DOM
+
+Untuk mengakses objek DOM, dapat menggunakan dua metode standar berikut ini:
+
+    getElementById, yang berfungsi untuk mengakses objek berdasarkan objek Id
+    getElementByTagName, yang berfungsi untuk mengakses objek berdasarkan tag name.
+
+
+    Berikut ini yang bukan merupakan DOM
+
+    DOM bukan merupakan spesifikasi biner
+    DOM bukan merupakan serangkaian struktur data
+    DOM tidak mendefinisikan apakah sebuah informasi didalam sebuah dokumen tersebut relevan atau apakah informasi itu terstruktur
+    DOM bukanlah saingan dari Component Onject Model (COM). COM sendiri adalah cara independen untuk menentukan tampilan atau objek.
